@@ -4,12 +4,12 @@
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: Седона</title>
-  <link href="./fonts/PTSans-Bold.woff2">
-  <link href="./fonts/PTSans-Bold.woff">
-  <link href="./fonts/PTSans.woff2">
-  <link href="./fonts/PTSans.woff">
+  <link href=".fonts/PTSans-Bold.woff2">
+  <link href=".fonts/PTSans-Bold.woff">
+  <link href=".fonts/PTSans.woff2">
+  <link href=".fonts/PTSans.woff">
   <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/style.min.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -35,14 +35,14 @@
         </div>
       </div>
       <section class="intro">
-        <b class="intro-text">Седона — небольшой городок в Аризоне,заслуживающий большего!</b>
+        <b class="intro-text">Седона — небольшой городок в Аризоне,<br> заслуживающий большего!</b>
         <p>Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
       </section>
-      <div class="index-content list">
+      <div class="index-content left">
         <section class="index-content-text-left">
           <b class="index-content-title">Настоящий<br> городок</b>
           <p class="index-content-number">№1</p>
-          <b>Седона - не аттракцион для туристов, там<br> течёт своя жизнь</b>
+          <p>Седона - не аттракцион для туристов, там<br> течёт своя жизнь</p>
         </section>
         <figure class="index-content-img-right">
           <img src="/1333231-sedona-30/img/jpg/cafe.jpg" width="800px" height="256px" alt="Настоящий городок">
@@ -56,8 +56,8 @@
         <div class="feauter-item souvenirs">Сувениры</div>
         <p>Не только китайского, но и местного<br> производства!</p>
       </section>
-      <section class="index-content-right">
-        <figure class="index-content-left">
+      <section class="index-content right">
+        <figure class="index-content-img-left">
           <img src="/1333231-sedona-30/img/jpg/ mountain2.jpg" width="800px" height="256px" alt="Мост дьявола">
         </figure>
         <b class="index-content-title">Там есть Мост дьявола</b>
@@ -66,17 +66,17 @@
       </section>
       <section class="feauters-second fix">
         <div class="feauter-item">
-          <b class="feauter-name">Небольшая площадь</b>
+          <b class="feauter-name">Небольшая<br> площадь</b>
           <p>№3</p>
           <p>Все достопримечательности<br> находятся очень близко</p>
         </div>
         <div class="feauter-item">
-          <b class="feauter-name">Красивая дорога</b>
+          <b class="feauter-name">Красивая<br> дорога</b>
           <p>№4</p>
           <p>Ехать в седону из лас-вегаса совсем<br> не скучно!</p>
         </div>
         <div class="feauter-item">
-          <b class="feauter-name">Мало туристов</b>
+          <b class="feauter-name">Мало<br> туристов</b>
           <p>№5</p>
           <p>Большинство едет в гранд каньон<br> и толпится там</p>
         </div>
@@ -88,17 +88,19 @@
       <img src="/1333231-sedona-30/img/png/map.png">
     </main>
 
-    <footer>
-      <p>#visitsedona</p>
-      <a href="tel:+74956660166">+7 (495) 666-01-66</a>
-      <section>
-        <a href="#">Twitter</a>
-        <a href="#">Facebook</a>
-        <a href="#">YouTube</a>
+    <footer class="main-footer main-index-footer">
+      <section class="footer-hashtag footer-item">
+        <p>#visitsedona</p>
       </section>
-      <section>
+      <a class="contacts" href="tel:+74956660166">+7 (495) 666-01-66</a>
+      <section class="footer-social footer-item">
+        <a class="social-btn" href="#">Twitter <span class="icon-twitter"></span></a>
+        <a class="social-btn" href="#">Facebook <span class="icon-facebook"></span></a>
+        <a class="social-btn" href="#">YouTube <span class="icon-youtube"></span></a>
+      </section>
+      <section class="footer-copyright footer-item">
         <span>websiteby</span>
-        <a href="https://htmlacademy.ru/study">logo</a>
+        <a class="copyright-logo" href="https://htmlacademy.ru/study">logo</a>
       </section>
     </footer>
   </div>
