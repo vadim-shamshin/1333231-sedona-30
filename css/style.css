@@ -1,0 +1,40 @@
+/* Vairables */
+
+:root {
+  --basic-black: #000000;
+  --basic-grey: #6A6A6A;
+  --basic-white: #FFFFFF;
+  --basic-blue: #81B3D2;
+  --basic-dark-blue: #669EC0;
+  --basic-navy-blue: #5496BD;
+  --basic-red: #FF0000;
+  --basic-brow: #766357;
+  --basic-dark-brow: #604E43;
+  --basic-navy-brow: #503E33;
+
+  --special-grey: #CACACA;
+  --special-lite-grey: #F2F2F2;
+  --special-dark-grey: #A9A9A9;
+
+
+
+}
+
+
+/* Fonts */
+
+@font-face {
+  font-family: "PT Sans";
+  src: local("PT Sans"), url("../fonts/PTSans-Bold.woff2"), format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  src: local("PT Sans"), url("../fonts/PTSans.woff2"), format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*  */
