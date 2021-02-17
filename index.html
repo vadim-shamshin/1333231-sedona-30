@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html class="page" lang="ru">
 
 <head>
   <meta charset="utf-8">
@@ -14,32 +14,34 @@
 
 <body class="body">
   <conteiner class="container">
-    <header class="main-neader">
-      <nav>
-        <ul>
-          <li><a class="main-header__info" href="#">Инофрмация</a></li>
-          <li><a class="main-header__photo" href="#">Фото и видео</a></li>
+    <header class="main-header">
+      <nav class="main-header__navigations">
+        <ul class="navigations">
+          <li><a class="main-header__nav" href="#">Инофрмация</a></li>
+          <li><a class="main-header__nav" href="#">Фото и видео</a></li>
           <li>
-            <h1><img class="main-header__logo" src="/1333231-sedona-30/img/svg/logo.svg" width="138px" height="70px"
-                alt="Логотип Sedona"></h1>
+            <img class="main-header__logo" src="/1333231-sedona-30/img/svg/logo.svg" width="138px" height="70px"
+              alt="Логотип Sedona">
           </li>
-          <li><a class="main-header__map" href="#">Карта шатата</a></li>
-          <li><a class="main-header__hotels" href="hotels.html">Гостиницы</a></li>
+          <li><a class="main-header__nav" href="#">Карта штата</a></li>
+          <li><a class="main-header__nav" href="hotels.html">Гостиницы</a></li>
         </ul>
       </nav>
     </header>
     <main class="main-body">
       <img class="main-body__welcome" src="./img/svg/welcome.svg" alt="Добро пожаловать">
+      <img class="main-body__mountain" src="./img/jpg/mountain.jpg" alt="Горы Аризоны">
+      <img class="main-body__decor" src="./img/svg/lines.svg" alt="Декоративные линии">
       <section class="description">
         <h1 class="description__sedona">Седона — небольшой городок в Аризоне, заслуживающий большего!</h1>
         <p class="description__features">Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
       </section>
-      
+
       <div class="about">
         <section class="about__features">
           <ul class="about__features-list">
             <li class="about__features-item">
-              <ul>
+              <ul class="test">
                 <li>
                   <h2 class="about__heading">Настоящий городок</h2>
                 </li>
@@ -60,18 +62,21 @@
       <div class="features">
         <li class="features__main">
           <ul class="features__list">
+            <img src="/1333231-sedona-30/img/svg/icons/home.svg" alt="Жильё">
             <li>
               <h2 class="features__heading">Жильё</h2>
             </li>
             <li>
               <p class="features__text">Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
             </li>
+            <img src="/1333231-sedona-30/img/svg/icons/burger.svg" alt="Еда">
             <li>
               <h2 class="features__heading">Еда</h2>
             </li>
             <li>
               <p class="features__text">Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
             </li>
+            <img src="/1333231-sedona-30/img/svg/icons/gift.svg" alt="Сувениры">
             <li>
               <h2 class="features__heading">Сувениры</h2>
             </li>
@@ -168,10 +173,10 @@
       </div>
       <div class="academy">
         <span class="academy__cop">websiteby</span>
-        <a class="academy__logo" href="https://htmlacademy.ru/study">logo</a>
+        <a class="academy__logo" href="https://htmlacademy.ru/study"><img
+            src="/1333231-sedona-30/img/svg/logo/logohtmlacademy.svg" alt="Логотип HTML Academy"></a>
       </div>
     </footer>
-    </div>
 </body>
 
 </html>
