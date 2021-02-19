@@ -25,241 +25,77 @@
 @font-face {
   font-family: "PTSans";
   src: local("../fonts/PTSans-Bold.woff2") format("woff2"), url("../fonts/PTSans-Bold.woff") format("woff");
-  font-weight: bold;
-  font-style: normal;
+  font-weight: 700;
+  font-style: bold;
 }
 
 @font-face {
   font-family: "PTSans";
   src: local("PTSans"), url("../fonts/PTSans.woff2") format("woff2"), url("../fonts/PTSans.woff") format("woof");
-  font-weight: normal;
+  font-weight: 400;
   font-style: normal;
-}
-
-.page {
-  height: 100%;
 }
 
 .body {
-  min-width: 1200px;
-  margin: 0;
-  padding: 0;
-  font-family: ptsans;
+  font-family: "PTSans";
   font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 21px;
   text-transform: uppercase;
-  color: var(--special-black);
-  background-color: var(--special-dark-grey);
-
-  min-width: 100%;
-  display: grid;
-  grid-template-rows: min-content 1fr min-content;
-  align-content: start;
+  background-color: var(--special-lite-grey);
+  color: var(--basic-black);
 }
 
 a {
   text-decoration: none;
+  color: var(--basic-black);
 }
 
 li {
   list-style: none;
 }
 
-.container {
-  width: 1200px;
-  margin: auto;
-}
 
-.main-header__navigations {
-  padding: 15px;
-  margin-bottom: 77px;
-  height: 56px;
-}
-
-.navigations {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-}
-
-.main-header {
-  margin-bottom: 0;
-  background-color: var(--basic-white);
-}
-
-.main-header__logo {
-  margin-top: -30px;
-}
-
-.main-header__nav {
-  color: var(--basic-black);
-  font-weight: bold;
+.main-heading {
+  font-size: 21px;
   line-height: 26px;
+  font-style: bold;
 }
 
-.main-body__welcome {
-  /* НЕ ПОНИМАЮ КАК ЕГО ОТЦЕНТРИРОВАТЬ */
-  justify-self: center;
+.heading {
+  font-size: 21px;
+  line-height: 21px;
+  font-style: bold;
 }
 
-
-.main-body__mountain {
-
-
-}
-
-.description {
-  text-align: center;
-}
-
-.description__sedona {
-  color: var(--basic-black);
-  font-weight: bold;
-  line-height: 26px;
-  width: 470px;
-  margin-bottom: 16.5px;
-  /* НЕ МОГУ ОТЦЕНТРИРОВАТЬ */
-}
-
-.about {
+.heading-part {
   color: var(--basic-white);
 }
 
-.about__features {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  /* НЕ МОГУ РАЗМЕСТИТЬ */
+.features-text {
+  color: var(--special-black);
 }
 
-.about__text {
-  line-height: 14px;
-  font-weight: normal;
+.features-part {
+  color: var(--basic-white);
 }
 
-.about__heading {
-  font-size: 21px;
-}
-
-.features__heading {
-  color: var(--basic-black);
-  font-size: 21px;
-  font-weight: bold;
-}
-
-.reserve__heading {
-  color: var(--basic-black);
+.interest-heading {
   font-size: 30px;
   line-height: 24px;
-  font-weight: bold;
+  font-style: bold;
 }
 
-.reserve__text {
-  color: var(--basic-black);
+.interest-text {
+  line-height: 24px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.main-footer {
-  background-color: rgba(255, 255, 255, 0.9);
-  outline: 5px solid rgba(255, 0, 0, 0.7);
-  outline-offset: -5px;
-}
-
-.main-footer__address {
-  color: var(--basic-black);
-  font-size: 21px;
-  line-height: 26px;
-  font-weight: bold;
+.cont {
   font-style: normal;
 }
 
-.main-footer__tel {
-  color: var(--basic-black);
+.back-image {
+  background-image: url("/1333231-sedona-30/img/jpg/mountain.jpg");
 }
-
-.soc__link {
-  color: var(--basic-black);
-}
-
-.filter {
-  background-image: url(/1333231-sedona-30/img/jpg/mountain3.png);
-  background-repeat: no-repeat;
-}
-
-.filter__part {
-  color: var(--basic-white);
-  font-size: 16px;
-}
-
-.filter__text {
-  color: var(--basic-white);
-  font-size: 14px;
-}
-
-.search__found {
-  color: var(--basic-black);
-  font-size: 21px;
-  font-weight: bold;
-}
-
-.search__sort {
-  color: var(--basic-black);
-  font-size: 12px;
-  line-height: 18px;
-}
-
-.search__price {
-  color: var(--basic-blue);
-}
-
-.search__type {
-  color: var(--basic-black);
-}
-
-.search__rating {
-  color: var(--basic-black);
-}
-
-.sort__btn-up {
-  background-image: url(/1333231-sedona-30/img/svg/icons/pointer-grey.svg);
-  background-repeat: no-repeat;
-}
-
-.sort__btn-down {
-  background-image: url(/1333231-sedona-30/img/svg/icons/pointer-blue.svg);
-  background-repeat: no-repeat;
-}
-
-.star {
-  background-image: url(/1333231-sedona-30/img/svg/icons/star.svg);
-}
-
-.rating__final {
-  color: #666666;
-  background-color: var(--special-lite-grey);
-}
-
-.hotels__text {
-  color: var(--basic-black);
-  font-size: 21px;
-  line-height: 26px;
-}
-
-.type-holels__type {
-  color: var(--basic-black);
-}
-
-.type-hotels__price {
-  color: var(--basic-black);
-}
-
-.type-hotels__more {
-  color: var(--basic-white);
-  background-color: var(--basic-blue);
-}
-
-.type-hotels__reserved {
-  color: var(--basic-white);
-  background-color: var(--basic-brow);
-}
- {
-}
+/*  */
