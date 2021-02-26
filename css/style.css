@@ -46,6 +46,10 @@
   color: var(--basic-black);
 }
 
+.hotels-body {
+  background-color: var(--basic-white);
+}
+
 a {
   text-decoration: none;
   color: var(--basic-black);
@@ -111,12 +115,98 @@ li {
   color: var(--basic-grey);
 }
 
+.nav-item-active:focus {
+  color: var(--basic-grey);
+}
+
 .social-item {
   background: var(--basic-blue);
   margin: 6px;
   width: 46px;
   height: 48px;
-  
+}
+
+.main-form {
+  background-image: url("../img/jpg/mountain3.png");
+  background-repeat: no-repeat;
+  color: var(--basic-white);
+}
+
+.filters-heading {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: bold;
+}
+
+.result-heading {
+  font-size: 21px;
+  line-height: 26px;
+}
+
+.results {
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.breadcrumbs {
+  opacity: 0.3;
+}
+
+.result-text {
+ border-bottom: 1px dashed var(--basic-blue);
+
+}
+
+.result-text:hover {
+  color: var(--basic-blue);
+}
+
+.result-text:active {
+  color: var(--basic-black);
+  border-bottom: none;
+  opacity: 100%;
+}
+
+.rating {
+  background-color: var(--special-lite-grey);
+  width: 110px;
+  height: 27px;
+}
+
+.hotels {
+  font-size: 21px;
+  line-height: 26px;
+}
+
+.type-hotels {
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.btn-one {
+  background-color: var(--basic-blue);
+  color: var(--basic-white);
+}
+
+.btn-two {
+  background-color: var(--basic-brow);
+  color: var(--basic-white);
+}
+
+.btn-one:hover {
+  background-color: var(--basic-dark-blue);
+}
+
+.btn-two:hover {
+  background-color: var(--basic-dark-brow);
+}
+
+.btn-one:active {
+  background-color: var(--basic-navy-blue);
+}
+
+.btn-two:active {
+  background-color: var(--basic-navy-brow);
 }
 
 
