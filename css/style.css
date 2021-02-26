@@ -148,23 +148,20 @@ li {
   line-height: 18px;
 }
 
-.breadcrumbs {
-  opacity: 0.3;
-}
-
 .result-text {
- border-bottom: 1px dashed var(--basic-blue);
-
+  border-bottom: 1px dashed var(--basic-blue);
+  opacity: 0.3;
 }
 
 .result-text:hover {
   color: var(--basic-blue);
+  opacity: 1;
 }
 
 .result-text:active {
   color: var(--basic-black);
   border-bottom: none;
-  opacity: 100%;
+  opacity: 1;
 }
 
 .rating {
@@ -178,34 +175,30 @@ li {
   line-height: 26px;
 }
 
-.type-hotels {
-  font-size: 14px;
-  line-height: 16px;
-}
 
-.btn-one {
+.first {
   background-color: var(--basic-blue);
   color: var(--basic-white);
 }
 
-.btn-two {
+.second {
   background-color: var(--basic-brow);
   color: var(--basic-white);
 }
 
-.btn-one:hover {
+.first:hover {
   background-color: var(--basic-dark-blue);
 }
 
-.btn-two:hover {
+.second:hover {
   background-color: var(--basic-dark-brow);
 }
 
-.btn-one:active {
+.first:active {
   background-color: var(--basic-navy-blue);
 }
 
-.btn-two:active {
+.second:active {
   background-color: var(--basic-navy-brow);
 }
 
