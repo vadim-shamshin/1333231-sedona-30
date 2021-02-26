@@ -4,8 +4,14 @@
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: Седона</title>
+  <link rel="stylesheet" href="./fonts/PTSans-Bold.woff2">
+  <link rel="stylesheet" href="./fonts/PTSans-Bold.woff">
+  <link rel="stylesheet" href="./fonts/PTSans.woff2">
+  <link rel="stylesheet" href="./fonts/PTSans.woff">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="favicon.ico">
+  <link rel="icon" href="/1333231-sedona-30/img/svg/icons/favicon/Favicon/32.svg">
 </head>
 
 <body class="body container">
@@ -19,17 +25,17 @@
       </ul>
     </nav>
     <a href="index.html" class="main-header__logo">
-      <h1><img src="/1333231-sedona-30/img/svg/logo.svg" alt="Логотип Sedona"></h1>
+      <img src="/1333231-sedona-30/img/svg/logo.svg" alt="Логотип Sedona">
     </a>
-    <section class="back-image"></section>
+    <section class="mountain"></section>
   </header>
   <main class="main-body">
     <section class="features">
-      <h2>Особенности Седоны</h2>
-      <h3 class="main-heading">Седона — небольшой городок в Аризоне, заслуживающий большего!</h3>
+      <h1>Особенности Седоны</h1>
+      <h2 class="main-heading">Седона — небольшой городок в Аризоне, заслуживающий большего!</h2>
       <p>Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
       <ul class="features-list">
-        <li>
+        <li class="part-list">
           <h3 class="heading heading-part">Настоящий городок</h3>
           <p class="features-text features-part">— №1 —</p>
           <p class="features-text features-part">Седона - не аттракцион для туристов, там течёт своя жизнь</p>
@@ -48,7 +54,7 @@
             </li>
           </ul>
         </li>
-        <li>
+        <li class="part-list">
           <h3 class="heading heading-part">Там есть Мост дьявола</h3>
           <p class="features-text features-part">— №2 —</p>
           <p class="features-text features-part">Да, по нему можно пройти! Если конечно вы осмелитесь</p>
@@ -70,7 +76,9 @@
         </li>
       </ul>
     </section>
-    <h3 class="interest-heading">Заинтересовались?</h3>
+    <section>
+      <h2 class="interest-heading">Заинтересовались?</h2>
+    </section>
     <p class="interest-text">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в
       седоне</p>
     <section>
@@ -82,10 +90,13 @@
       <p class="main-heading cont">#visitsedona</p>
       <a class="main-heading cont" href="tel:+74956660166">+7 (495) 666-01-66</a>
     </address>
-    <ul>
-      <li><a href="#"><img src="/1333231-sedona-30/img/svg/icons/twitter.svg" alt="Ссылка на Twitter"></a></li>
-      <li><a href="#"><img src="/1333231-sedona-30/img/svg/icons/facebook.svg" alt="Ссылка на Facebook"></a></li>
-      <li><a href="#"><img src="/1333231-sedona-30/img/svg/icons/youtube.svg" alt="Ссылка на YouTube"></a></li>
+    <ul class="social-list">
+      <li class="social-item"><a href="#"><img src="/1333231-sedona-30/img/svg/icons/twitter.svg"
+            alt="Ссылка на Twitter"></a></li>
+      <li class="social-item"><a href="#"><img src="/1333231-sedona-30/img/svg/icons/facebook.svg"
+            alt="Ссылка на Facebook"></a></li>
+      <li class="social-item"><a href="#"><img src="/1333231-sedona-30/img/svg/icons/youtube.svg"
+            alt="Ссылка на YouTube"></a></li>
     </ul>
     <p class="copy-text">websiteby</p>
     <a class="academy" href="https://htmlacademy.ru/study">

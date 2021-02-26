@@ -55,7 +55,6 @@ li {
   list-style: none;
 }
 
-
 .main-heading {
   font-size: 21px;
   line-height: 26px;
@@ -66,6 +65,11 @@ li {
   font-size: 21px;
   line-height: 21px;
   font-style: bold;
+  color: var(--basic-black);
+}
+
+.part-list {
+  color: var(--basic-white);
 }
 
 .heading-part {
@@ -95,7 +99,25 @@ li {
   font-style: normal;
 }
 
-.back-image {
-  background-image: url("/1333231-sedona-30/img/jpg/mountain.jpg");
+.mountain {
+  background-image: url("../img/jpg/mountain.jpg");
 }
+
+.nav-item:hover {
+  color: var(--basic-blue);
+}
+
+.nav-item:active {
+  color: var(--basic-grey);
+}
+
+.social-item {
+  background: var(--basic-blue);
+  margin: 6px;
+  width: 46px;
+  height: 48px;
+  
+}
+
+
 /*  */
